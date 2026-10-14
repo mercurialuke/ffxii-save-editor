@@ -2,6 +2,8 @@
 
 A save editor for *FINAL FANTASY XII THE ZODIAC AGE* (Steam), plus the reverse-engineering notes behind it. As far as I know this is the first public documentation of the PC save format.
 
+> **Made with AI.** This project was developed with an AI coding assistant (Anthropic's Claude, via Claude Code). The AI did the reverse engineering and wrote the code and the documentation. I directed the work and tested the results on my own saves in-game, but I didn't write the code by hand and don't know every line of it. Keep backups (the editor makes them automatically), and please report problems in the issues.
+
 ## The editor (Windows app)
 
 `editor\FFXIISaveEditor.exe` finds your saves in `Documents\My Games\FINAL FANTASY XII THE ZODIAC AGE\<steam id>\` and edits them in place. Build it with `editor\build.bat`; it needs only the .NET Framework 4.x that ships with Windows.
