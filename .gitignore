@@ -1,0 +1,8 @@
+# personal save data and local working files
+backups/
+work/
+*.raw
+*.exe
+*.dmp
+FFXII_0*
+__pycache__/
